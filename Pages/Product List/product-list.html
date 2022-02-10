@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listening</title>
+    <link rel="stylesheet" href="https://eagleui.netlify.app/css/component.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="product-list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navigation">
+        <div class="navigation__logo">
+        <h3 class="navigation__heading">EagleStore</h3>
+        </div>
+        <ul class="navbar__search">
+        <input class="search__box" type="search" ><span class="search__icon"><i class="fas fa-search"></i></span>
+        </ul>
+                
+        <ul class="navbar__right">
+        <button class="btn btn__default">Login</button>
+        <div class="badge">
+            <i class="badge__icon fas fa-cart-plus"></i>
+            <span class="badge__number">0</span>
+          </div>
+          <div class="badge">
+          <i class="badge__icon far fa-heart"></i>
+          <span class="badge__number">2</span>
+        </div>
+        </ul>
+    </nav>
+
+    <div class="product__container">
+        <aside class="filter">
+          <div class="filter__head">
+            <h4>Filters</h4>
+            <p>Clear</p>
+          </div>
+          <div class="filter__price">
+              <h4 class="filter__heading">Price</h4>
+              <div class="filter__range">
+                  <p>50</p>
+                  <p>150</p>
+                  <p>200</p>
+              </div>
+              <input class="slider" type="range" name="" min="50" max="200">
+          </div>
+          <div class="filter__category">
+              <h4 class="filter__heading">Category</h4>
+              <div class="filter__checkbox">
+                  <label class="filter__input">
+                      <input type="checkbox" name="" id="">
+                      <span class="filter__desc">Laptop</span>
+                  </label>
+                  <label class="filter__input">
+                    <input type="checkbox" name="" id="">
+                    <span class="filter__desc">Mobile</span>
+                </label>
+                <label class="filter__input">
+                    <input type="checkbox" name="" id="">
+                    <span class="filter__desc">Earphones</span>
+                </label>
+              </div>
+          </div>
+          <div class="filter__rating">
+              <h4 class="filter__heading">Rating</h4>
+              <div class="filter__checkbox">
+                <label class="filter__input">
+                    <input type="checkbox" name="" id="">
+                    <span class="filter__desc">4 Star & above</span>
+                </label>
+                <label class="filter__input">
+                  <input type="checkbox" name="" id="">
+                  <span class="filter__desc">3 Star & above</span>
+              </label>
+              <label class="filter__input">
+                  <input type="checkbox" name="" id="">
+                  <span class="filter__desc">2 star & above</span>
+              </label>
+              <label class="filter__input">
+                <input type="checkbox" name="" id="">
+                <span class="filter__desc">1 star & above</span>
+            </label>
+          </div>
+          </div>
+
+          <div class="filter__sort">
+              <h4 class="filter__heading">Sort by</h4>
+              <div class="filter__checkbox">
+                <label class="filter__input">
+                    <input type="checkbox" name="" id="">
+                    <span class="filter__desc">Price - Low to High</span>
+                </label>
+                <label class="filter__input">
+                  <input type="checkbox" name="" id="">
+                  <span class="filter__desc">Price - High to Low</span>
+              </label>
+              </div> 
+          </div>
+        </aside>
+  
+        <main class="product">
+            <h4 class="heading fw__500">Showing All Products <span class="product__subtext fw__400">(Showing 10 products)</span></h4>
+          <div class="product__cards">
+              <div class="product__card">
+                <div class="product__image">
+                    <img src="https://www.apple.com/v/mac/home/bk/images/overview/compare/compare_mba__fchj615oz0yi_medium_2x.png" alt="i Mac">
+                    <span class="product__favourite"><i class="fas fa-heart"></i></span>
+                </div>
+                <div class="product__heading">
+                    MacBook Pro
+                </div>
+                <div class="product__price">&#8377; 2000</div>
+                <div class="product__button">
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product__card">
+                <div class="product__image">
+                    <img src="https://www.apple.com/v/mac/home/bk/images/overview/compare/compare_mba__fchj615oz0yi_medium_2x.png" alt="MacBook Pro">
+                    <span class="product__favourite"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="product__heading">
+                    MacBook Pro
+                </div>
+                <div class="product__price">&#8377; 2000</div>
+                <div class="product__button">
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product__card">
+                <div class="product__image">
+                    <img src="https://www.apple.com/v/mac/home/bk/images/overview/compare/compare_mba__fchj615oz0yi_medium_2x.png" alt="MacBook Pro">
+                    <span class="product__favourite "><i class="far fa-heart"></i></span>
+                </div>
+                <div class="product__heading">
+                    MacBook Pro
+                </div>
+                <div class="product__price">&#8377; 2000</div>
+                <div class="product__button">
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product__card">
+                <div class="product__image">
+                    <img src="https://www.apple.com/v/mac/home/bk/images/overview/compare/compare_mba__fchj615oz0yi_medium_2x.png" alt="MacBook Pro">
+                    <span class="product__favourite"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="product__heading">
+                    MacBook Pro
+                </div>
+                <div class="product__price">&#8377; 2000</div>
+                <div class="product__button">
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product__card">
+                <div class="product__image">
+                    <img src="https://www.apple.com/v/mac/home/bk/images/overview/compare/compare_mba__fchj615oz0yi_medium_2x.png" alt="MacBook Pro">
+                    <span class="product__favourite"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="product__heading">
+                    MacBook Pro
+                </div>
+                <div class="product__price">2&#8377; 000</div>
+                <div class="product__button">
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product__card">
+                <div class="product__image">
+                    <img src="https://www.apple.com/v/mac/home/bk/images/overview/compare/compare_mba__fchj615oz0yi_medium_2x.png" alt="MacBook Pro">
+                    <span class="product__favourite"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="product__heading">
+                    MacBook Pro
+                </div>
+                <div class="product__price">&#8377; 2000</div>
+                <div class="product__button">
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product__card">
+                <div class="product__image">
+                    <img src="https://www.apple.com/v/mac/home/bk/images/overview/compare/compare_mba__fchj615oz0yi_medium_2x.png" alt="MacBook Pro">
+                    <span class="product__favourite"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="product__heading">
+                    MacBook Pro
+                </div>
+                <div class="product__price">&#8377; 2000</div>
+                <div class="product__button">
+                    <button class="btn btn__primary">Add to Cart</button>
+                </div>
+              </div>
+              
+          </div>
+   
+        </main>
+      </div>
+
+
+</body>
+</html>
