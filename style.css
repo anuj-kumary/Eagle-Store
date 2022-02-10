@@ -4,13 +4,20 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
 }
 .navigation{
     margin: 0;
     position: sticky;
     top: 0;
+}
+.navigation__logo{
+    display: flex;
+    align-items: center;
+}
+.hamburger{
+    padding-right: 1rem;
 }
 .navbar__search{
     width: 20rem;
@@ -20,8 +27,8 @@ body{
 }
 .search__box{
     width: 100%;
-    border-radius: 50px;
-    padding: .7rem 0;
+    border-radius: 5px;
+    padding: .7rem .4rem;
     outline: none;
     border-width: 0;
     border: 1px solid #111;
@@ -45,4 +52,30 @@ body{
 .badge__number{
     bottom: 1.2rem;
     left: 2.6rem;
+}
+
+
+
+
+/* Responsive Style */
+
+@media screen and (max-width:700px) {
+    html{
+        font-size: 12px;
+    }
+    .navbar__search{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+@media screen and (max-width:400px){
+    html{
+        font-size: 10px;
+    }
 }
