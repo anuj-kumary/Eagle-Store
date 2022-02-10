@@ -1,3 +1,7 @@
+:root{
+    --white : #f5f1f1;
+    --grey : #C4C4C480;
+}
 .product__container{
     display: flex;
 }
@@ -6,10 +10,10 @@
     flex-direction: column;
     width: 18rem;
     min-height: 100vh;
-    border-radius: 1px solid grey;
+    border-radius: 1px solid var(--grey);
     padding: 1rem 2rem;
     gap: 2rem;
-    border-right: 1px solid #111;
+    border-right: 1px solid var(--black);
 }
 .filter__head,
 .filter__range{
@@ -33,7 +37,7 @@
 .product{
    width: 80vw;
    margin: 0 auto;
-   background-color: #f5f1f1;
+   background-color: var(--white)
 }
 .product__cards{
     max-width: 50rem;
@@ -65,7 +69,7 @@
     height: 13rem;
     object-fit: cover;
     display: block;
-    background-color: #C4C4C480;
+    background-color: var(--grey);
     padding: 1rem;
     position: relative;
  }
@@ -78,7 +82,7 @@
      color: #dc143c;
      padding: .45rem;
      top: .35rem;
-     background-color: #f5f1f1;
+     background-color: var(--white)
  }
 .product__heading{
      padding: 1rem 0;
