@@ -1,0 +1,47 @@
+:root {
+    --text-color: #282828;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: var(--text-color);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.auth__form {
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    border-radius: 5px;
+}
+
+input[type=password] {
+    border: 1px solid var(--border-color);
+}
+
+.login__link {
+    font-size: .8rem;
+}
+
+.auth__forget {
+    float: right;
+    color: var(--primary-color);
+}
+
+.input__checkbox {
+    vertical-align: middle;
+}
+
+.text {
+    vertical-align: text-bottom;
+}
