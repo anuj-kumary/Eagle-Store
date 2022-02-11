@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --bg-color : #F7F7F7;
+    --grey-color : #9A9A9A;
+}
 body{
     width: 100vw;
     min-height: 100vh;
