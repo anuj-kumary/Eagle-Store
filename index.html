@@ -1,47 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eagle Store</title>
-    <link rel="stylesheet" href="
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eagle Store</title>
+  <link rel="stylesheet" href="
     https://eagleui.netlify.app/css/component.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
 
-    
-<nav class="navigation">
+
+  <nav class="navigation">
     <div class="navigation__logo">
       <div class="hamburger">
         <i class="fas fa-bars"></i>
       </div>
-    <h3 class="navigation__heading">EagleStore</h3>
+      <h3 class="navigation__heading">EagleStore</h3>
     </div>
     <ul class="navbar__search">
-    <input class="search__box" type="search" placeholder="Search" ><span class="search__icon"><i class="fas fa-search"></i></span>
+      <input class="search__box" type="search" placeholder="Search"><span class="search__icon"><i
+          class="fas fa-search"></i></span>
     </ul>
-            
+
     <ul class="navbar__right">
-    <button class="btn btn__default">Login</button>
-    <div class="badge">
+      <button class="btn btn__default">Login</button>
+      <div class="badge">
         <i class="badge__icon fas fa-cart-plus"></i>
         <span class="badge__number">0</span>
       </div>
       <div class="badge">
-      <i class="badge__icon far fa-heart"></i>
-      <span class="badge__number">2</span>
-    </div>
+        <i class="badge__icon far fa-heart"></i>
+        <span class="badge__number">2</span>
+      </div>
     </ul>
-</nav>
-<section id="hero">
-  <div class="center slider"></div>
-    <div class="hero__container">
-      <div>
+  </nav>
+  <section id="hero">
+    <div class="hero__overlay hero__slider">
+      <div class="hero__content">
+        <h1 class="hero__heading">Welcome to EagleStore</h1>
+        <h3 class="hero__subheading">For all your gadgets</h3>
+        <button class="btn btn__default">Shop Now</button>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="categories">
+    <h3 class="subheading text__center">Top Categories to choose from</h3>
+    <div class="categories__cards">
+      <div class="categories__card overlay">
+        <div class="categories__images">
+          <img src="https://o.remove.bg/downloads/1fb2297b-4b41-4e9d-9b33-5f09d9efd83f/mbp-16-digitalmat-gallery-1-202111-removebg-preview.png" alt="Laptop" >
+          <h2 class="categories__heading text__center">Laptop</h2>
+        </div>
+      </div>
+      <div class="categories__card">
+        <div class="categories__images">
+          <img src="https://o.remove.bg/downloads/780c0ddd-bf1d-41bc-a380-3a937eecc73d/photo-1605236453806-6ff36851218e-removebg-preview.png" alt="Laptop" >
+          <h2 class="categories__heading text__center">Phone</h2>
+        </div>
+      </div>
+      <div class="categories__card">
+        <div class="categories__images">
+          <img src="https://o.remove.bg/downloads/90b94942-5b86-43ca-87f4-818964ec56fd/Indy-Evo_True-Black_S2IVW-N740_Buds-Front_v005-300x300-removebg-preview.png" alt="Earphone" >
+          <h2 class="categories__heading text__center">Earbuds</h2>
+        </div>
       </div>
     </div>
   </section>
-  </body>
+
+  <footer class="footer">
+    <p class="footer__text">Made with ❤️ by Anujkumar Yadav</p>
+    <div class="footer__icon">
+      <a href="https://github.com/anuj-kumary/Eagle-Store"><i class="icon fab fa-github-square"></i></a>
+      <a href="https://twitter.com/TheRealAnujK"><i class="icon fab fa-twitter-square"></i></a>
+      <a href="https://www.linkedin.com/in/anujkumar-yadav-29b2521aa/"><i class="icon fab fa-linkedin"></i></a>
+    </div>
+    <p class="footer__text">© 2022 EagleStore </p>    
+  </footer>
+</body>
+
 </html>
