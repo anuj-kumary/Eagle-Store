@@ -6,11 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eagle | Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://eagleui.netlify.app/css/component.css" />
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="./auth.css" />
 </head>
 
 <body>
+    <nav class="navigation">
+        <div class="navigation__logo">
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+          <a href="/index.html">
+            <h3 class="navigation__heading">EagleStore</h3>
+          </a>
+        </div>
+        <ul class="navbar__search">
+          <input class="search__box" type="search" placeholder="Search"><span class="search__icon"><i
+              class="fas fa-search"></i></span>
+        </ul>
+    
+        <ul class="navbar__right">
+          <a href="/Pages/Authentication/login.html" class="btn btn__default">Login</a>
+          <div class="badge">
+            <i class="badge__icon fas fa-cart-plus"></i>
+            <span class="badge__number">0</span>
+          </div>
+          <div class="badge">
+            <a href="./Pages/Wishlist/wishlist.html">
+            <i class="badge__icon far fa-heart"></i>
+            <span class="badge__number">4</span>
+          </a>
+          </div>
+        </ul>
+      </nav>
+
     <div class="container">
         <div class="auth__form">
             <div class="auth__title">
