@@ -7,9 +7,11 @@
 :root {
     --white: #f5f1f1;
     --grey: #C4C4C480;
+    --bg-color : #F7F7F7;
+    --grey-color : #9A9A9A;
 }
 
-body {
+body{
     width: 100vw;
     height: 100vh;
 }

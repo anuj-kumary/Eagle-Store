@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="
+    https://eagleui.netlify.app/css/component.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./card-page.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navigation">
+    <div class="navigation__logo">
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <h3 class="navigation__heading">EagleStore</h3>
+    </div>
+    <ul class="navbar__search">
+      <input class="search__box" type="search" placeholder="Search"><span class="search__icon"><i
+          class="fas fa-search"></i></span>
+    </ul>
+
+    <ul class="navbar__right">
+      <button class="btn btn__default">Login</button>
+      <div class="badge">
+        <i class="badge__icon fas fa-cart-plus"></i>
+        <span class="badge__number">0</span>
+      </div>
+      <div class="badge">
+        <i class="badge__icon far fa-heart"></i>
+        <span class="badge__number">2</span>
+      </div>
+    </ul>
+  </nav>
+
+  <main class="cart__container">
+    <h3 class="content__heading text__center">MY Cart (2)</h3>
+    <div class="cart">
+      <div class="cart__horizontal">
+        <div class="cart__image">
+          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80"
+            alt="MacBook Pro">
+        </div>
+        <div class="cart__content">
+          <h3 class="cart_heading">MacBook Pro</h3>
+          <div class="cart__price">&#8377; 2000 <span class="cart_price--notvalid"><del>₹3999</del></span>
+          </div>
+          <div class="cart__offer">50% off</div>
+          <div class="cart__quantity">
+            <p class="cart__text">Quantity:</p>
+            <p>
+            <i class="fas fa-minus-circle"></i>
+            </p>
+            <p class="cart__quantity-number">2</p>
+            <p>
+            <i class="fas fa-plus-circle"></i>
+            </p>
+          </div>
+          <div class="product__button">
+            <button class="btn btn__primary">Move to Wishlist</button>
+            <button class="btn btn__secondary">Remove From Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart__vertical">
+        <h3 class="cart_heading">Price details</h3>
+        <hr>
+        <div class="cart__price--distribution">
+        <p>Price (2 items) <span class="cart__price--value">&#8377; 4999</span></p>
+        <p>Discount <span class="cart__price--value">&#8377; -1999</span></p>
+        <p>Delivery Charges <span class="cart__price--value">&#8377; 499</span> </p>
+        </div>
+        <hr>
+        <h3 class="cart__total">Total amount <span class="cart__price--value">&#8377; 3499</span></h3>
+        <hr>
+        <p class="cart__text">You will save 1999 on this order</p>
+        <button class="btn btn__primary">Place order</button>
+      </div>
+
+    </div>
+  </main>
+
+
+
+
+</body>
+
+</html>
