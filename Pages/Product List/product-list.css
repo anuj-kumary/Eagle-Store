@@ -39,6 +39,7 @@
    margin: 0 auto;
    background-color: var(--white)
 }
+
 .product__subtext{
     font-size: .8rem;
     padding-left: .5rem;
