@@ -50,7 +50,7 @@ input[type=password] {
 
 .logout__container {
     width: 90vw;
-    margin: 2rem auto;
+    margin: 0 auto;
 }
 
 .logout {
@@ -64,8 +64,9 @@ input[type=password] {
     margin-bottom: 1rem;
 }
 
-.hero__subheading {
-    padding: .5rem 0;
+.hero__sub__heading {
+    padding: .4rem 0;
+    font-weight: 550;
 }
 
 .logout__buttons {
