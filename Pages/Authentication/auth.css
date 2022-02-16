@@ -1,10 +1,12 @@
 :root {
     --text-color: #282828;
+    --theme-color: #3362cd
 }
 
 body {
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
     color: var(--text-color);
 }
 
@@ -44,4 +46,50 @@ input[type=password] {
 
 .text {
     vertical-align: text-bottom;
+}
+
+.logout__container {
+    width: 90vw;
+    margin: 2rem auto;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__heading {
+    color: var(--theme-color);
+    margin-bottom: 1rem;
+}
+
+.hero__subheading {
+    padding: .5rem 0;
+}
+
+.logout__buttons {
+    display: flex;
+}
+
+.btn__default {
+    background-color: var(--theme-color);
+}
+
+.logout__buttons>.btn {
+    margin: 1rem 1.5rem 0 0;
+    padding: .8rem 1.5rem;
+}
+
+.btn:hover {
+    background-color: var(--off-white);
+    border: 1px solid var(--theme-color);
+}
+
+.login__content {
+    width: 30rem;
+}
+
+.logout__images {
+    width: 40rem;
 }
