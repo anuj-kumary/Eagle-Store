@@ -13,19 +13,14 @@
 
 body{
     width: 100vw;
-    height: 100vh;
 }
 
 .navigation {
     margin: 0;
-    /* position: fixed;
-    width: 100%; */
     position: sticky;
     top: 0;
     z-index: 10;
-    /* top: 0; */
     background-color: var(--white);
-    /* z-index: 5; */
 }
 
 .navigation__logo {
@@ -42,6 +37,15 @@ body{
     position: relative;
     display: flex;
     align-items: center;
+}
+
+.navbar__right > .btn__default{
+    background-color: var(--primary-color);
+}
+
+.btn:hover {
+    background-color: var(--off-white);
+    border: 1px solid var(--primary-color);
 }
 
 .search__box {

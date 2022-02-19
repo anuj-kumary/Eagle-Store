@@ -37,7 +37,8 @@
 .product{
    width: 80vw;
    margin: 0 auto;
-   background-color: var(--white)
+   background-color: var(--white);
+   padding-bottom: 2rem;
 }
 
 .product__subtext{

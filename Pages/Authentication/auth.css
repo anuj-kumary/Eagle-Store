@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 80vh;
 }
 
 .auth__form {
@@ -80,11 +80,6 @@ input[type=password] {
 .logout__buttons>.btn {
     margin: 1rem 1.5rem 0 0;
     padding: .8rem 1.5rem;
-}
-
-.btn:hover {
-    background-color: var(--off-white);
-    border: 1px solid var(--theme-color);
 }
 
 .login__content {
