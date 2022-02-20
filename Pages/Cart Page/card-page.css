@@ -12,18 +12,20 @@
 .cart {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cart__horizontal {
     width: 30rem;
-    height: 20rem;
+    height: 22rem;
     display: flex;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 2rem;
 }
 
 .cart__image {
     width: 20rem;
-    height: 20rem;
+    height: 22rem;
     object-fit: cover;
     display: block;
     padding: 1rem;

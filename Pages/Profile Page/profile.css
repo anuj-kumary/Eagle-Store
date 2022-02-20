@@ -1,0 +1,50 @@
+:root{
+    --bg-color:#ededed;
+    --color : #113946;
+    --off-grey : #bcc6cc;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .profile {
+    width: 17.87rem;
+    background-color: var(--bg-color);
+    height: 21rem;
+  }
+  
+  .profile__heading {
+    display: flex;
+    align-items: center;
+  }
+  .list__item {
+    border: none;
+    color: var(--color);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .profile__list {
+    padding: 0.5rem 0 0 0rem;
+  }
+  .user-details {
+    padding: 1rem;
+    width: 25rem;
+    height: 23rem;
+  }
+  .user__heading {
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+  .user__name,
+  .user__dob,
+  .user__email {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: var(--off-grey)
+  }
+  .user__detail {
+    color: var(--color);
+    margin-left: 1rem;
+  }
+  
