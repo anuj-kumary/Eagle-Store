@@ -8,6 +8,7 @@
     width: 100vw;
     margin: 0 auto;
     background-color: var(--white);
+    padding-bottom: 1rem;
 }
 
 .heading {
