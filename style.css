@@ -72,10 +72,19 @@ body{
 .navbar__right >.btn{
     text-align: center;
 }
+.user__icon{
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5rem;
+    border-radius: 50px;
+}
+.user__icon:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 .badge__icon {
     font-size: 1.2rem;
-    padding-right: .2rem;
+    padding-right: .2rem; 
     padding-bottom: .3rem;
 }
 
@@ -183,6 +192,7 @@ body{
     align-items: center;
     width: 100%;
     background-color: var(--grey);
+    margin: 0;
 }
 
 .footer__text {

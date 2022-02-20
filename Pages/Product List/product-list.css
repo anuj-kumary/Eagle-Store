@@ -46,6 +46,9 @@
     padding-left: .5rem;
 }
 
+.badge{
+    margin:0 .6rem 0 0;
+}
 
 @media screen and (max-width:1000px){
     .product__cards{
