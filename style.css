@@ -150,7 +150,8 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 1rem 0;
+    width: 95%;
+    margin: 1rem auto;
 }
 
 .subheading {
@@ -161,7 +162,6 @@ body{
 .categories__card {
     width: 25rem;
     height: 25rem;
-    margin: 1rem 0 0 2rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
