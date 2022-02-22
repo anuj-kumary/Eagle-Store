@@ -35,3 +35,11 @@
 .address__border{
     border-right: 1px solid #111;
 }
+
+@media screen and (max-width:600px){
+    .address__card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+}

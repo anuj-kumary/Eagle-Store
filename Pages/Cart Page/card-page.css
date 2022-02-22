@@ -88,7 +88,7 @@
 
 .cart__vertical {
     width: 25rem;
-    height: 22rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
