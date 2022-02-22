@@ -1,0 +1,37 @@
+
+.address__card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    height: 13rem;
+}
+.icon{
+    color: var( --grey-color);
+}
+.content__heading{
+    padding-top: 2rem;
+}
+.address__default{
+    padding: .5rem;
+}
+.card__place{
+    color: var(--black);
+    font-size: .8rem;
+}
+.footer{
+    background-color: transparent;
+    align-items: flex-start;
+}
+.footer__left > a{
+    color: var(--text-color);
+    padding: 0 1rem;
+    
+}
+.footer__left > a:hover{
+    color: var(--black);
+}
+.address__border{
+    border-right: 1px solid #111;
+}
