@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eagle | Login</title>
+    <title>Forget Password</title>
     <link rel="icon" type="image/svg+xml" href="/images/dove-solid.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
     integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
@@ -30,48 +30,22 @@
     
         <ul class="navbar__right">
           <a href="/Pages/Authentication/signup.html" class="btn btn__default">Signup</a>
-          <div class="badge">
-            <a href="/Pages/Cart Page/cart-page.html">
-              <i class="badge__icon fas fa-cart-plus"></i>
-              <span class="badge__number">1</span>
-            </a>
-          </div>
-          <div class="badge">
-            <a href="./Pages/Wishlist/wishlist.html">
-            <i class="badge__icon far fa-heart"></i>
-            <span class="badge__number">4</span>
-          </a>
-          </div>
         </ul>
       </nav>
-    <div class="container">
-        <div class="auth__form">
+
+      <div class="container">
+        <div class="auth__form auth__form--password">
             <div class="auth__title">
-                <h2 class="heading text__center">Login</h2>
+                <h2 class="heading text__center">Forget Password</h2>
+                <p class="subtitle text__center fw__700">We will email you instructions on how to reset it</p>
             </div>
             <div class="input">
                 <label>Email</label>
-                <input class="input-txt" type="email" />
+                <input class="input-txt" type="email" placeholder="abc@gmail.com"/>
             </div>
-            <div class="input">
-                <label>Password</label>
-                <input class="input-txt" type="password" />
-            </div>
-            <div class="input">
-                <label class="input__checkbox"></label>
-                <input type="checkbox">
-                <span class="text">Remember Me</span>
-            </label>
-                <a href="./forget.html" class="auth__forget">Forget your Password?</a>
-            </div>
-            
             <div class="btn__signup text__center">
-                <button class="btn btn__primary">Login</button>
-            </div>
-            <div class="text__center">
-                <a class="login__link fw__400" href="./signup.html">Create new account ></a>
+                <button class="btn btn__primary">Reset Password</button>
             </div>
         </div>
-    </div>
 </body>
 </html>
