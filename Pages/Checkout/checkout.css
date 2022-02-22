@@ -1,0 +1,27 @@
+body{
+    overflow-y: hidden;
+}
+.cart__vertical{
+    height: auto;
+    margin: 0;
+}
+.cart__container{
+    padding: 0;
+}
+.checkout__card{
+    display: flex;
+    justify-content: center;
+}
+.cart__coupon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coupon__icon{
+    position: relative;
+    top: -2rem;
+    float: right;
+}
+.coupon__value{
+    padding-top: 0.5rem;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="icon" type="image/svg+xml" href="/images/dove-solid.png">
+    <link rel="stylesheet" href="
+      https://eagleui.netlify.app/css/component.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../Cart Page/card-page.css" >
+    <link rel="stylesheet" href="./checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navigation">
+        <div class="navigation__logo">
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+          <a href="/index.html">
+            <h3 class="navigation__heading">EagleStore</h3>
+          </a>
+        </div>
+        <ul class="navbar__search">
+          <input class="search__box" type="search" placeholder="Search"><span class="search__icon"><i
+              class="fas fa-search"></i></span>
+        </ul>
+    
+        <ul class="navbar__right">
+          <a href="/Pages/Authentication/logout.html" class="btn btn__default"><i class="fas fa-sign-out-alt"></i></a>
+          <div class="badge">
+            <a href="/Pages/Cart Page/cart-page.html">
+              <i class="badge__icon fas fa-cart-plus"></i>
+              <span class="badge__number">1</span>
+            </a>
+          </div>
+          <div class="badge">
+            <a href="/Pages/Wishlist/wishlist.html">
+              <i class="badge__icon far fa-heart"></i>
+              <span class="badge__number">4</span>
+            </a>
+          </div>
+        </ul>
+      </nav>
+      <main class="cart__container">
+        <h3 class="content__heading text__center">Checkout</h3>
+        <div class="checkout__card">
+        <div class="cart__vertical">
+            <h3 class="cart_heading">Price details</h3>
+            <hr>
+            <div class="cart__price--distribution">
+            <p>Price (2 items) <span class="cart__price--value">&#8377; 230,900.00</span></p>
+            <p class="cart__coupon">Coupon
+            <span class="cart__price--value coupon__value">
+                <input  class="input-txt" type="text" placeholder="Coupon Code">
+                <i class="coupon__icon fas fa-tag" aria-hidden="true"></i>
+            </span>
+            </p>
+            <p>Discount <span class="cart__price--value">&#8377; -1999</span></p>
+            <p>Delivery Charges <span class="cart__price--value">&#8377; 200.00</span> </p>
+            </div>
+            <hr>
+            <h3 class="cart__total">Total amount <span class="cart__price--value">&#8377; 229,101.00</span></h3>
+            <hr>
+            <p class="cart__text">You will save 1999 on this order</p>
+            <button class="btn btn__primary">Place order</button>
+          </div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
