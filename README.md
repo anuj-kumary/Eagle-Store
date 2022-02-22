@@ -29,6 +29,9 @@
 - [Cart Management](https://eaglestore.netlify.app/pages/cart%20page/cart-page)
 - [Wishlist Management](https://eaglestore.netlify.app/pages/wishlist/wishlist)
 - [User Profile Page](https://eaglestore.netlify.app/pages/profile%20page/profile)
+- [Forget Password Page](https://eaglestore.netlify.app/pages/authentication/forget.html)
+- [Address Management](https://eaglestore.netlify.app/pages/address%20management/address)
+- [Checkout Page](https://eaglestore.netlify.app/pages/checkout/checkout)
 - Authentication
     - [Login](https://eaglestore.netlify.app/pages/authentication/login)
     - [Signup](https://eaglestore.netlify.app/pages/authentication/signup)
